@@ -10,68 +10,68 @@ import pooriSabji from '../assets/images/poori-sabji.webp';
 import roganJosh from '../assets/images/rogan-josh.jpg';
 import { color } from 'framer-motion';
 
-export const popularDishes = [
-    {
-      id: 1,
-      image: butterChicken,
-      name: 'Butter Chicken',
-      numberOfOrders: 250,
-    },
-    {
-      id: 2,
-      image: palakPaneer,
-      name: 'Palak Paneer',
-      numberOfOrders: 190,
-    },
-    {
-      id: 3,
-      image: biryani,
-      name: 'Hyderabadi Biryani',
-      numberOfOrders: 300,
-    },
-    {
-      id: 4,
-      image: masalaDosa,
-      name: 'Masala Dosa',
-      numberOfOrders: 220,
-    },
-    {
-      id: 5,
-      image: choleBhature,
-      name: 'Chole Bhature',
-      numberOfOrders: 270,
-    },
-    {
-      id: 6,
-      image: rajmaChawal,
-      name: 'Rajma Chawal',
-      numberOfOrders: 180,
-    },
-    {
-      id: 7,
-      image: paneerTikka,
-      name: 'Paneer Tikka',
-      numberOfOrders: 210,
-    },
-    {
-      id: 8,
-      image: gulabJamun,
-      name: 'Gulab Jamun',
-      numberOfOrders: 310,
-    },
-    {
-      id: 9,
-      image: pooriSabji,
-      name: 'Poori Sabji',
-      numberOfOrders: 140,
-    },
-    {
-      id: 10,
-      image: roganJosh,
-      name: 'Rogan Josh',
-      numberOfOrders: 160,
-    },
-  ];
+// export const popularDishes = [
+//     {
+//       id: 1,
+//       image: butterChicken,
+//       name: 'Butter Chicken',
+//       numberOfOrders: 250,
+//     },
+//     {
+//       id: 2,
+//       image: palakPaneer,
+//       name: 'Palak Paneer',
+//       numberOfOrders: 190,
+//     },
+//     {
+//       id: 3,
+//       image: biryani,
+//       name: 'Hyderabadi Biryani',
+//       numberOfOrders: 300,
+//     },
+//     {
+//       id: 4,
+//       image: masalaDosa,
+//       name: 'Masala Dosa',
+//       numberOfOrders: 220,
+//     },
+//     {
+//       id: 5,
+//       image: choleBhature,
+//       name: 'Chole Bhature',
+//       numberOfOrders: 270,
+//     },
+//     {
+//       id: 6,
+//       image: rajmaChawal,
+//       name: 'Rajma Chawal',
+//       numberOfOrders: 180,
+//     },
+//     {
+//       id: 7,
+//       image: paneerTikka,
+//       name: 'Paneer Tikka',
+//       numberOfOrders: 210,
+//     },
+//     {
+//       id: 8,
+//       image: gulabJamun,
+//       name: 'Gulab Jamun',
+//       numberOfOrders: 310,
+//     },
+//     {
+//       id: 9,
+//       image: pooriSabji,
+//       name: 'Poori Sabji',
+//       numberOfOrders: 140,
+//     },
+//     {
+//       id: 10,
+//       image: roganJosh,
+//       name: 'Rogan Josh',
+//       numberOfOrders: 160,
+//     },
+//   ];
 
 
 export const tables = [
@@ -296,42 +296,42 @@ export const pizzas = [
   }
 ];
 
-export const alcoholicDrinks = [
+export const Drinks = [
   {
     id: 1,
-    name: "Beer",
-    price: 200,
-    category: "Alcoholic"
+    name: "Fresh Orange Juice",
+    price: 150,
+    category: "Drinks"
   },
   {
     id: 2,
-    name: "Whiskey",
-    price: 500,
-    category: "Alcoholic"
+    name: "Mango Smoothie",
+    price: 250,
+    category: "Drinks"
   },
   {
     id: 3,
-    name: "Vodka",
-    price: 450,
-    category: "Alcoholic"
+    name: "Strawberry Shake",
+    price: 220,
+    category: "Drinks"
   },
   {
     id: 4,
-    name: "Rum",
-    price: 350,
-    category: "Alcoholic"
+    name: "Lassi (Sweet/Salted)",
+    price: 180,
+    category: "Drinks"
   },
   {
     id: 5,
-    name: "Tequila",
-    price: 600,
-    category: "Alcoholic"
+    name: "Mint Lemonade",
+    price: 170,
+    category: "Drinks"
   },
   {
     id: 6,
-    name: "Cocktail",
-    price: 400,
-    category: "Alcoholic"
+    name: "Pomegranate Juice",
+    price: 300,
+    category: "Drinks"
   }
 ];
 
@@ -376,7 +376,7 @@ export const menus = [
   { id: 4, name: "Soups", bgColor: "#735f32" ,icon: "🍜", items: soups },
   { id: 5, name: "Desserts", bgColor: "#1d2569" ,icon: "🍰", items: desserts },
   { id: 6, name: "Pizzas", bgColor: "#285430" ,icon: "🍕", items: pizzas },
-  { id: 7, name: "Alcoholic Drinks", bgColor: "#b73e3e" ,icon: "🍺", items: alcoholicDrinks },
+  { id: 7, name: "Drinks", bgColor: "#b73e3e" ,icon: "🍺", items: Drinks },
   { id: 8, name: "Salads", bgColor: "#5b45b0" ,icon: "🥗", items: salads }
 ]
 

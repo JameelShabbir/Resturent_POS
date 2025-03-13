@@ -17,6 +17,7 @@ const TableCard = ({ id, name, status, initials, seats }) => {
   }
 
   return (
+
     <div onClick={() => handleClick(name)} key={id} className="w-full h-40 bg-[#262626] rounded-lg cursor-pointer p-3">
       <div className="flex items-center justify-between">
         <h1 className="text-[#f5f5f5] font-medium text-sm">Table {name}</h1>
@@ -33,6 +34,7 @@ const TableCard = ({ id, name, status, initials, seats }) => {
           <div
             className="rounded-full flex items-center justify-center w-12 h-12 text-white text-base font-medium"
             style={{ backgroundColor: getBgColor() }}
+
           >
             {getAvatarName(initials)}
           </div>

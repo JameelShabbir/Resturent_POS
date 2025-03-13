@@ -82,10 +82,15 @@ const Orders = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 p-4">
-        {filteredOrders.map((order) => (
-          <OrderCard key={order._id} order={order} />
-        ))}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-4 md:px-8 lg:px-16 py-4 overflow-y-scroll scrollbar-hide">
+      {
+          resData?.data.data.length > 0 ? (
+            resData.data.data.map((order) => {
+              return <OrderCard key={order._id} order={order} />
+            })
+          ) : <p className="col-span-3 text-gray-500">No orders available</p>
+        }
+
       </div>
       <BottomNav />
     </section>
