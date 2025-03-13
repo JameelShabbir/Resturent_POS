@@ -56,8 +56,8 @@ const Tables = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-5 gap-3 px-16 py-4 h-[650px] overflow-y-scroll scrollbar-hide">
-        {resData?.data.data.map((table) => {
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 px-4 sm:px-8 lg:px-16 overflow-y-scroll scrollbar-hide">
+      {resData?.data.data.map((table) => {
           return (
             <TableCard
               id={table._id}

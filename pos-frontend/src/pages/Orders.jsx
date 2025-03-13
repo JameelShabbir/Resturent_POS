@@ -51,8 +51,8 @@ const Orders = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-3 px-16 py-4 overflow-y-scroll scrollbar-hide">
-        {
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-4 md:px-8 lg:px-16 py-4 overflow-y-scroll scrollbar-hide">
+      {
           resData?.data.data.length > 0 ? (
             resData.data.data.map((order) => {
               return <OrderCard key={order._id} order={order} />

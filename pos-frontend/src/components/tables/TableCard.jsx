@@ -22,8 +22,8 @@ const TableCard = ({ id, name, status, initials, seats }) => {
       <div
         onClick={() => handleClick(name)}
         key={id}
-        className="w-full sm:w-[300px] h-52 hover:shadow-md hover:bg-[#3a3a3a] bg-[#262626] p-4 rounded-lg cursor-pointer mx-auto"
-      >
+        className="w-full max-w-[350px] h-52 hover:shadow-md hover:bg-[#4b4b4b] bg-[#383838] p-4 rounded-lg cursor-pointer mx-auto"
+        >
         <div className="flex items-center justify-between px-1">
           <h1 className="text-[#f5f5f5] font-semibold text-lg sm:text-xl">
             Table{" "}
